@@ -1,6 +1,6 @@
-from config import Config
-from api.views import app
 from api.database import db, migrate
+from api.views import app
+from config import Config
 
 app.config.from_object(Config)
 
